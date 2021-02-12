@@ -1,20 +1,20 @@
 const countryListMap = require("./countries-codes-flags.json");
 
-export function getCountryListMap() {
+module.exports.getCountryListMap = function() {
   return countryListMap;
 }
 
-export function getCountryDialCode(countryCode) {
+module.exports.getCountryDialCode = function(countryCode) {
   const country = countryListMap[ countryCode ];
   return country && country.dialCode;
 }
 
-export function getCountryName(countryCode) {
+module.exports.getCountryName = function(countryCode) {
   const country = countryListMap[ countryCode ];
   return country && country.country;
 }
 
-export function getCountryFlag(countryCode) {
+module.exports.getCountryFlag = function(countryCode) {
   const country = countryListMap[ countryCode ];
   return country && country.flag;
 }
