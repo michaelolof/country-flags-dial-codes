@@ -1,0 +1,25 @@
+{
+  "name": "country-flags-dial-code",
+  "version": "1.0.0",
+  "description": "A Utility library for mapping countries, dial codes and their flags in SVG",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelolof/country-flags-dial-codes.git"
+  },
+  "keywords": [
+    "Country codes",
+    "Flags",
+    "SVG flags",
+    "dial codes"
+  ],
+  "author": "michaelolof",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelolof/country-flags-dial-codes/issues"
+  },
+  "homepage": "https://github.com/michaelolof/country-flags-dial-codes#readme"
+}
