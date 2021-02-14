@@ -1,6 +1,6 @@
 {
   "name": "country-flags-dial-code",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Utility library for mapping countries, dial codes and their flags in SVG",
   "main": "dist/index.js",
   "scripts": {
